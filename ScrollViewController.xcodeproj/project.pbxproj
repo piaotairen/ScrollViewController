@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47169EC020A44EB900CC367A /* BackgroundHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47169EBF20A44EB900CC367A /* BackgroundHeaderView.swift */; };
+		47169EC220A4566200CC367A /* ClearHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47169EC120A4566200CC367A /* ClearHeaderView.swift */; };
+		477401A9209B3B8900A12DC7 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477401A8209B3B8900A12DC7 /* RankingTableViewController.swift */; };
+		477401AB209BFFEF00A12DC7 /* TabBarCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477401AA209BFFEF00A12DC7 /* TabBarCustomItem.swift */; };
 		478E90D52099BC3800D1DE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E90D42099BC3800D1DE12 /* AppDelegate.swift */; };
 		478E90D72099BC3800D1DE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E90D62099BC3800D1DE12 /* ViewController.swift */; };
 		478E90DA2099BC3800D1DE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478E90D82099BC3800D1DE12 /* Main.storyboard */; };
@@ -14,6 +18,12 @@
 		478E90DF2099BC3900D1DE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478E90DD2099BC3900D1DE12 /* LaunchScreen.storyboard */; };
 		478E90EA2099BC3900D1DE12 /* ScrollViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E90E92099BC3900D1DE12 /* ScrollViewControllerTests.swift */; };
 		478E90F52099BC3900D1DE12 /* ScrollViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E90F42099BC3900D1DE12 /* ScrollViewControllerUITests.swift */; };
+		478E91092099BC8C00D1DE12 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91032099BC8C00D1DE12 /* ContainerViewController.swift */; };
+		478E910A2099BC8C00D1DE12 /* ContainerTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91042099BC8C00D1DE12 /* ContainerTransitionContext.swift */; };
+		478E910B2099BC8C00D1DE12 /* PercentDrivenInteractive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91052099BC8C00D1DE12 /* PercentDrivenInteractive.swift */; };
+		478E910C2099BC8C00D1DE12 /* InteractiveTransitionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91062099BC8C00D1DE12 /* InteractiveTransitionMaker.swift */; };
+		478E910D2099BC8C00D1DE12 /* ScrollTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91072099BC8C00D1DE12 /* ScrollTabBarViewController.swift */; };
+		478E910E2099BC8C00D1DE12 /* AnimationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E91082099BC8C00D1DE12 /* AnimationTransitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47169EBF20A44EB900CC367A /* BackgroundHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHeaderView.swift; sourceTree = "<group>"; };
+		47169EC120A4566200CC367A /* ClearHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearHeaderView.swift; sourceTree = "<group>"; };
+		477401A8209B3B8900A12DC7 /* RankingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
+		477401AA209BFFEF00A12DC7 /* TabBarCustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustomItem.swift; sourceTree = "<group>"; };
 		478E90D12099BC3800D1DE12 /* ScrollViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478E90D42099BC3800D1DE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478E90D62099BC3800D1DE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		478E90F02099BC3900D1DE12 /* ScrollViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478E90F42099BC3900D1DE12 /* ScrollViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewControllerUITests.swift; sourceTree = "<group>"; };
 		478E90F62099BC3900D1DE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478E91032099BC8C00D1DE12 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		478E91042099BC8C00D1DE12 /* ContainerTransitionContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerTransitionContext.swift; sourceTree = "<group>"; };
+		478E91052099BC8C00D1DE12 /* PercentDrivenInteractive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentDrivenInteractive.swift; sourceTree = "<group>"; };
+		478E91062099BC8C00D1DE12 /* InteractiveTransitionMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionMaker.swift; sourceTree = "<group>"; };
+		478E91072099BC8C00D1DE12 /* ScrollTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTabBarViewController.swift; sourceTree = "<group>"; };
+		478E91082099BC8C00D1DE12 /* AnimationTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTransitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +117,10 @@
 		478E90D32099BC3800D1DE12 /* ScrollViewController */ = {
 			isa = PBXGroup;
 			children = (
+				478E91022099BC8C00D1DE12 /* Transition */,
 				478E90D42099BC3800D1DE12 /* AppDelegate.swift */,
 				478E90D62099BC3800D1DE12 /* ViewController.swift */,
+				477401A8209B3B8900A12DC7 /* RankingTableViewController.swift */,
 				478E90D82099BC3800D1DE12 /* Main.storyboard */,
 				478E90DB2099BC3900D1DE12 /* Assets.xcassets */,
 				478E90DD2099BC3900D1DE12 /* LaunchScreen.storyboard */,
@@ -123,6 +145,22 @@
 				478E90F62099BC3900D1DE12 /* Info.plist */,
 			);
 			path = ScrollViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		478E91022099BC8C00D1DE12 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				478E91032099BC8C00D1DE12 /* ContainerViewController.swift */,
+				478E91042099BC8C00D1DE12 /* ContainerTransitionContext.swift */,
+				478E91052099BC8C00D1DE12 /* PercentDrivenInteractive.swift */,
+				478E91062099BC8C00D1DE12 /* InteractiveTransitionMaker.swift */,
+				478E91082099BC8C00D1DE12 /* AnimationTransitionController.swift */,
+				478E91072099BC8C00D1DE12 /* ScrollTabBarViewController.swift */,
+				477401AA209BFFEF00A12DC7 /* TabBarCustomItem.swift */,
+				47169EBF20A44EB900CC367A /* BackgroundHeaderView.swift */,
+				47169EC120A4566200CC367A /* ClearHeaderView.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47169EC020A44EB900CC367A /* BackgroundHeaderView.swift in Sources */,
 				478E90D72099BC3800D1DE12 /* ViewController.swift in Sources */,
+				478E910A2099BC8C00D1DE12 /* ContainerTransitionContext.swift in Sources */,
+				478E910E2099BC8C00D1DE12 /* AnimationTransitionController.swift in Sources */,
+				477401AB209BFFEF00A12DC7 /* TabBarCustomItem.swift in Sources */,
+				478E910C2099BC8C00D1DE12 /* InteractiveTransitionMaker.swift in Sources */,
 				478E90D52099BC3800D1DE12 /* AppDelegate.swift in Sources */,
+				478E91092099BC8C00D1DE12 /* ContainerViewController.swift in Sources */,
+				478E910B2099BC8C00D1DE12 /* PercentDrivenInteractive.swift in Sources */,
+				477401A9209B3B8900A12DC7 /* RankingTableViewController.swift in Sources */,
+				478E910D2099BC8C00D1DE12 /* ScrollTabBarViewController.swift in Sources */,
+				47169EC220A4566200CC367A /* ClearHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B37F52X83;
 				INFOPLIST_FILE = ScrollViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B37F52X83;
 				INFOPLIST_FILE = ScrollViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
