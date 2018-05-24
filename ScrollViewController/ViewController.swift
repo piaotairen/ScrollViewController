@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         rootViewController.view.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight)
         rootViewController.view.backgroundColor = .white
         view.addSubview(rootViewController.view)
-        
+        addChildViewController(rootViewController)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

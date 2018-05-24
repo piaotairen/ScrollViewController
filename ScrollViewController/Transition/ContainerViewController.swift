@@ -159,6 +159,10 @@ class ContainerViewController: UIViewController {
         addChildViewControllerButtons()
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Setting this property in other method before this one will make a bug: when you go back to this initial selectedIndex, no transition animation.
